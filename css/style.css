@@ -32,6 +32,51 @@ a.btn {
     text-align: center;
 }
 
+
+
+a.juan {
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #f17a35c5;
+    font-weight: 800;
+    text-align: center;
+
+
+
+    padding: 20px 20px;
+    margin-top:20px;
+    float: right;
+
+}
+
+
+
+a.sebastian {
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #e648b6c5;
+    font-weight: 800;
+    text-align: center;
+
+
+
+    padding: 20px 20px;
+    margin-top:20px;
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
 section {
     display: flex;
     flex-direction: column;
@@ -162,6 +207,24 @@ header nav li:last-child {
     opacity: 0.75;
 }
 
+
+header{
+
+    /*background-color: #cce477; FONDO */ 
+
+    background-image: url(../img/huevito.PNG);
+
+    padding-bottom: 25px;
+
+
+
+}
+
+
+
+
+
+
 .hero h1 {
     font: bold 60px 'Open Sans', sans-serif;
     margin-bottom: 15px;
@@ -175,6 +238,8 @@ header nav li:last-child {
 .hero a.btn {
     padding: 20px 46px;
 }
+
+
 
 @media (max-width: 800px){
     .hero {
@@ -239,6 +304,18 @@ header nav li:last-child {
 .services .grid li p{
     margin: 0;
 }
+
+.services .grid li img {
+
+    width: 110px;
+    
+
+}
+
+ 
+
+
+
 @media (max-width: 1000px){
 
     .services .grid li{
@@ -265,8 +342,13 @@ header nav li:last-child {
 /*Section reviews*/
 
 .reviews {
-    background-color: #fff;
+    background-color: rgb(195, 226, 80);
 }
+
+
+
+
+
 .reviews .quote{
     text-align: center;
     width: 80%;
@@ -378,8 +460,3 @@ footer p a{
     }
 
 }
-
-
-
-
-
